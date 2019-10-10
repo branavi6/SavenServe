@@ -1,25 +1,63 @@
+<!--
+Branavi Vaikuntharajan 
+ICS 4UR
+October 9th, 2019
+HTML for receiver hompage
+-->
 <!DOCTYPE html>
 <html>
 
 <head>
     <Title>Save 'n' Serve - HOME</Title>
     <script src="RecHpg.js"></script>
+    <link rel="stylesheet" type="text/css">
+    <link type="js" href="RecHpg.js">
+
 </head>
 
 <body>
-    <!-- Eventually this section of the will take the name and address from the user's login information and display it in the header-->
-    <input type="text" name="Company Name" value="Knights Table"><br>
-    <input type="text" name="Address" value="287 Glidden Rd #4, Brampton, ON L6W 1H9"><br>
     <!-- This is the logo of our company-->
-    <img src="SAVE n'SERVE.jpg" width="150" height="250">
-    <!-- This setion will display the possible listings by comparing city sectors-->
-    <h1>LISTINGS</h1>
-    <p>Title of Listing</p>
-    <p>Description</p>
-    <a href="message.html">Message</a>
+    <table style="width:100%">
+        <tr>
+            <td style="align-content: center;"><img src="SAVE%20n'SERVE.jpg" width="200" height="210" style="float; left;"></td>
+            <td style="width: 90%">
+                <!-- Eventually this section will take the name and address from the user's login information and display it in the header-->
+                <p>Company Name: Knights Table</p>
+                <p>Company Address: 287 Glidden Rd #4, Brampton, ON L6W 1H9</p>
+            </td>
+            <td style="align-content: center;" class="topbar">
+            <td style="width:40%">
+                <p><a href="RecMessage.html">Message</a><a href="RecOrderHis.html">Order History</a></p>
+            </td>
+        </tr>
+    </table>
+    <!-- listings title-->
+    <h1 style="text-align:left;">LISTINGS</h1>
     <br>
-    <p>Title of Listing</p>
-    <p>Description</p>
-    <a href="message.html">Message</a>
+    <!-- This setion will display the possible listings by comparing city sectors-->
+    <table style="width:100%">
+        <tr>
+            <td style="align-content: center;"><img src="Swiss_Chalet_logo.png" width="145" height="145"></td>
+            <td style="width: 85%;">
+                <p>Swiss Chalet</p>
+                <p>150 West Dr Building D, Brampton, ON L6T 5P1</p>
+                <p>Title of Order</p>
+                <p>Description of Order</p>
+                <p> <a href="RecMessage.html">Message Donor</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="align-content: center;"><img src="1088px-Pizza_Hut_logo.svg.png" width="145" height="145"></td>
+            <td style="width: 85%;">
+                <p>Pizza Hut</p>
+                <p>295 Queen St E, Brampton, ON L6W 2C2</p>
+                <p>Title of Order</p>
+                <p>Description of Order</p>
+                <p> <a href="RecMessage.html">Message Donor</a></p>
+            </td>
+        </tr>
+    </table>
+
 </body>
+
 </html>

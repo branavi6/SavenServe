@@ -1,11 +1,17 @@
+<!--
+Branavi Vaikuntharajan 
+ICS 4UR
+October 9th, 2019
+HTML for receiver login page
+-->
 <!DOCTYPE html>
 <html>
 
 <head>
     <Title>Save 'n' Serve - LOGIN</Title>
-    <script src="RecLog.js"></script>
+    
 </head>
-
+<!-- logo in the centre, to be moved and made smaller-->
 <body>
     <center><img src="SAVE n'SERVE.jpg" width="250" height="300"></center>
 
@@ -14,11 +20,13 @@
             <center>Login</center>
         </h2>
         <form>
+    <!-- this is where the users type in their username and passward. The submitted entry will take them to their specified hompage-->
             <p>Username</p>
             <input type="text" id="uname" placeholder="Username">
             <p>Password</p>
             <input type="text" id="pward" placeholder="Password">
-            <input type="button" onclick="checkFor()" id=login value="Login" class="button">
+            <input type="submit" onclick="checkFor();" id="login" value="Login" class="submit">
         </form>
     </div>
+    <script src="RecLog.js"></script>
 </body></html>
